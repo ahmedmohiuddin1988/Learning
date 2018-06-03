@@ -20,7 +20,7 @@ namespace SampleWeb.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return "value";
+            return "value2";
         }
 
         // POST api/values
@@ -33,6 +33,7 @@ namespace SampleWeb.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody]string value)
         {
+			//add comment
         }
 
         // DELETE api/values/5
